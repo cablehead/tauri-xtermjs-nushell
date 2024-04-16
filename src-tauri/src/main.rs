@@ -19,11 +19,8 @@ struct AppState {
 #[tauri::command]
 // create a shell and add to it the $TERM env variable so we can use clear and other commands
 async fn async_create_shell(state: State<'_, AppState>) -> Result<(), String> {
-    #[cfg(target_os = "windows")]
-    let mut cmd = CommandBuilder::new("powershell.exe");
 
-    #[cfg(not(target_os = "windows"))]
-    let mut cmd = CommandBuilder::new("bash");
+    let mut cmd = CommandBuilder::new("nu");
 
     // add the $TERM env variable so we can use clear and other commands
 

@@ -27,7 +27,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri-terminal.dev",
+      "identifier": "com.tauri-xtermjs-nushell.dev",
       "targets": "all"
     },
     "security": {
@@ -40,7 +40,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauri-terminal",
+        "title": "tauri-xtermjs-nushell",
         "width": 800,
         "height": 600
       }

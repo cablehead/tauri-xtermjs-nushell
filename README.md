@@ -1,10 +1,3 @@
-## tauri-terminal
-
-This little project shows how to make a terminal emulator in [Tauri](https://tauri.app/), using [`xterm.js`](https://www.npmjs.com/package/xterm) and [`portable-pty`](https://crates.io/crates/portable-pty).
-
-> Note: You will need Jetbrains Mono installed unless you edit the code and pick the font yourself :)  
-
-Don't hesitate to contribute! I think it could be faster.
-
-![demo](demo.png)
-
+This is a fork of tauri-terminal, that
+[invokes](https://github.com/marc2332/tauri-terminal/commit/0bdd4a27ee2874de12e99bccd6c91d6ec5d28fbc#diff-2f5e0a90d4195e9986f5e24928dce16b59a80a2cf30f7059b38d55bd7d1eff69R23)
+the [nu](https://www.nushell.sh) binary instead of bash.

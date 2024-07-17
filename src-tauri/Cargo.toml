@@ -1,5 +1,5 @@
 [package]
-name = "tauri-terminal"
+name = "tauri-xtermjs-nushell"
 version = "0.0.0"
 description = "A Tauri App"
 authors = ["you"]
